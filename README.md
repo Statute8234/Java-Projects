@@ -12,18 +12,15 @@ The Java code is a simple number guessing game where players guess a random numb
 # About
 
 The Java code is a simple number guessing game where the player has three chances to guess a random number between 1 and 10, with feedback provided after each guess. If the player fails within three attempts, they lose a point, and if they reach zero points, the game ends.
+
 # Features
 
-The Kivy application for managing user authentication and registration in the "GUUF IT Department App" is a robust project that features a multiplatform open-source Python framework for creating graphical user interfaces (GUIs). The app features multiple screens, each serving a specific purpose, such as the login screen, sign-up screen, password reset screen, and successful login screen. Users can log in using their credentials, sign up by providing their name, email, and password, and reset their password if needed.
-
-The app likely uses email addresses for user identification and communication, and may send verification emails during registration or password reset processes. Password hashing is crucial for security, and the app likely hashes passwords before storing them in a database to prevent attackers from easily retrieving original passwords.
-
-Device information can enhance the user experience by tailoring the app's behavior based on the user's device. For more advanced features, consider adding two-factor authentication (2FA), account recovery options, and user profile management.
+The Java code for the number guessing game would include random number generation, three guess attempts, a feedback mechanism, a point system, game termination, and a user interface. The game would test the player's luck and intuition, with a simple interface for input and feedback. The feedback mechanism would indicate the guess's accuracy. The point system would deduct points for failing to guess within three attempts. The game would end if the player's points reached zero. The user interface would provide a simple way for players to input their guesses and receive feedback.
 
 # Imports
 
-kivy.lang, kivymd.app, kivy.core.window, kivy.uix.screenmanager, kivy.properties, kivymd.uix.relativelayout, kivy.uix.boxlayout, kivymd.toast, platform, geopy.geocoders, datetime, email.message, pymongo, bcrypt, secrets, ssl, smtplib, string, re, random, sys
+Random, Scanner
 
 # Rating
 
-The user authentication system uses the Kivy framework for cross-platform applications, providing a user-friendly interface and clear separation of concerns. It includes error handling and input validation for data integrity and security. However, some parts of the code could be optimized for readability and maintainability, and the app's functionality could be enhanced with two-factor authentication (2FA). Some commented-out sections of code may clutter the file and should be removed or properly documented for future use. More detailed comments and documentation could aid understanding and future development.
+Implements a number guessing game with user input, random numbers, feedback, and points tracking. However, improvements could be made to improve robustness, add error handling for non-integer input, provide more maintainable and understandable comments, increase scalability by allowing guessing a number between 1 and 10, and break down the code into smaller, modular functions for better readability and maintainability. These improvements would enhance the game's flexibility and replay value.
